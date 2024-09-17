@@ -368,7 +368,7 @@
                             </div>
                             @endforeach
                         </div>
-                    </div>                
+                    </div>
                 </div>
             </div>
 
@@ -427,10 +427,16 @@
                 <div class="flex flex-col items-center ">
                     <h1 class="text-sm lg:text-xl font-medium text-yellow-600 capitalize">Temukan informasi lebih</h1>
                     <h1 class="text-4xl font-semibold mt-4 w-3/6 max-lg:w-full max-lg:text-2xl">Dapatkan informasi terkait
-                        promo, diskon atau <span>informasi menarik lainnya dengan subscribe</span><span> ke email
+                        promo, diskon atau <span>informasi menarik lainnya dengan subscribe</span><span> ke whatsap
                             kami.</span></h1>
                 </div>
-                <div class="mail mt-4 flex gap-4 justify-center">
+
+                <div class="bg-green-500 w-44 mx-auto mt-6 text-white rounded-xl px-2 py-3">
+                    <i class="bi bi-whatsapp me-1"></i>
+                    Whatsapp
+                </div>
+
+                {{-- <div class="mail mt-4 flex gap-4 justify-center">
                     <div class="flex items-center border-2 bg-white rounded-xl p-2">
                         <i class="bi bi-envelope text-gray-500 mr-2"></i>
                         <input type="text" class="border-0 p-2 px-4 rounded-xl flex-grow outline-none"
@@ -438,7 +444,7 @@
                     </div>
                     <button
                         class="langganan text-md p-0 px-4 rounded-xl text-white shadow-lg bg-yellow-600">Langganan</button>
-                </div>
+                </div> --}}
             </div>
         </div>
         {{-- ending information end --}}

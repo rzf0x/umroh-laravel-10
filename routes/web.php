@@ -38,12 +38,12 @@ Route::prefix('/')->group(function () {
 
     Route::post('/logout',[loginController::class,'logout'])->name('logout');
 
-    Route::get('/tentang-kami',[tentangKamiController::class,'tentangkami']);
-    Route::get('/galeri',[galeriController::class,'galeri']);
-    Route::get('/testimoni',[testimoniController::class,'testimoni']);
-    Route::get('/contact',[contactController::class,'contact']);
+    Route::get('/tentang-kami',[tentangKamiController::class,'tentangkami'])->name('tentang-kami');
+    Route::get('/galeri',[galeriController::class,'galeri'])->name('galery');
+    Route::get('/testimoni',[testimoniController::class,'testimoni'])->name('testimoni');
+    Route::get('/contact',[contactController::class,'contact'])->name('contact');
     Route::post('/contact',[contactController::class,'tambah'])->name('contact-tambah');
-    Route::get('/layanan',[layananController::class,'layanan']);
+    Route::get('/layanan',[layananController::class,'layanan'])->name('layanan');
     Route::post('/layanan',[layananController::class,'tambah'])->name('layanan-tambah');
 });
 
